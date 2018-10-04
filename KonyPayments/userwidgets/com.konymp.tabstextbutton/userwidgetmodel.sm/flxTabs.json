@@ -1,0 +1,86 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4d90fd64df64407bcfa09ed2a4544d2",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": false,
+    "bounces": false,
+    "bouncesZoom": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxTab1",
+        "flxTab2",
+        "flxTab3",
+        "flxIndicator",
+        "lblSkin",
+        "lblDullSkin"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": false,
+    "id": "flxTabs",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "bouncesZoom": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "f09459cb0053415791f1d7c5354e62e6",
+    "layouttype": 2,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "tabstextbutton",
+    "pf": "userwidgetmodel",
+    "scrolldirection": 1,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "track": false,
+    "verticalscrollindicator": false,
+    "vizProps": {},
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 3
+}

@@ -1,0 +1,329 @@
+{
+    "classname": "tabstextbutton",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c6bcdbf399e042b39f9c567eb4066118",
+                    "paramList": [],
+                    "propertyKey": "moveLeft",
+                    "pw": {
+                        "displayName": "moveLeft",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g21480fb845c4016b7a119702cd77231",
+                    "paramList": [],
+                    "propertyKey": "moveRight",
+                    "pw": {
+                        "displayName": "moveRight",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g1330235c40a434d812496ee19e3cb44",
+                    "paramList": [
+                        {
+                            "name": "tabIndex"
+                        }
+                    ],
+                    "propertyKey": "goToTab",
+                    "pw": {
+                        "displayName": "goToTab",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g5d31ed5036741f4a89d5657858c6500",
+                    "paramList": [],
+                    "propertyKey": "getSelectedTabDetails",
+                    "pw": {
+                        "displayName": "getSelectedTabDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "iad3b1c3d7824747bed0f490c4d529e5",
+                    "paramList": [],
+                    "propertyKey": "getSelectedTabIndex",
+                    "pw": {
+                        "displayName": "getSelectedTabIndex",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d4f2a3cd859f486ca23769eab91fb6d6",
+                    "paramList": [
+                        {
+                            "name": "tabData"
+                        }
+                    ],
+                    "propertyKey": "createTabs",
+                    "pw": {
+                        "displayName": "createTabs",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e27b7ca1cd7049bc9c419cfa75c44e9f",
+                    "paramList": [
+                        {
+                            "name": "eventObject"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onTabChange",
+                    "pw": {
+                        "displayName": "onTabChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Tab Properties",
+                "Tab Names"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Tab1",
+                    "group": "Tab Names",
+                    "kuid": "bc0273e07b0846ca85c0dbcabc2aea42",
+                    "originalPropertyKey": "title0",
+                    "propertyIndex": 1,
+                    "propertyKey": "title0",
+                    "pw": {
+                        "displayName": "Tab 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Tab2",
+                    "group": "Tab Names",
+                    "kuid": "beff5966a8b74a839ed71c9e101bff1e",
+                    "originalPropertyKey": "title1",
+                    "propertyIndex": 2,
+                    "propertyKey": "title1",
+                    "pw": {
+                        "displayName": "Tab 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Tab3",
+                    "group": "Tab Names",
+                    "kuid": "ca041af630b245a3894e4a8addb9a7c7",
+                    "originalPropertyKey": "title2",
+                    "propertyIndex": 3,
+                    "propertyKey": "title2",
+                    "pw": {
+                        "displayName": "Tab 3",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Tab4",
+                    "group": "Tab Names",
+                    "kuid": "a93509f245d147efadf6664ff3060fce",
+                    "originalPropertyKey": "title3",
+                    "propertyIndex": 4,
+                    "propertyKey": "title3",
+                    "pw": {
+                        "displayName": "Tab 4",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Tab5",
+                    "group": "Tab Names",
+                    "kuid": "c675f004a8c5494a80d98655d026a868",
+                    "originalPropertyKey": "title4",
+                    "propertyIndex": 5,
+                    "propertyKey": "title4",
+                    "pw": {
+                        "displayName": "Tab 5",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Tab6",
+                    "group": "Tab Names",
+                    "kuid": "eac3310ca95240dcbfb8a77f2f7ecb8c",
+                    "originalPropertyKey": "title5",
+                    "propertyIndex": 6,
+                    "propertyKey": "title5",
+                    "pw": {
+                        "displayName": "Tab 6",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 3,
+                    "group": "General",
+                    "kuid": "hc7a6becc0f241758815273b7690b50e",
+                    "originalPropertyKey": "tabCount",
+                    "propertyIndex": 7,
+                    "propertyKey": "tabCount",
+                    "pw": {
+                        "displayName": "No of Tabs",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "33.3%",
+                    "group": "General",
+                    "kuid": "ic2b848849c14fa092d062fab9b5e41b",
+                    "originalPropertyKey": "tabWidth",
+                    "propertyIndex": 8,
+                    "propertyKey": "tabWidth",
+                    "pw": {
+                        "displayName": "Tab Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g822a5e6a0224477a56b813fb891b05b",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e67257c3c7644469b334a4f6b41a1ed8",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "sknBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Tab Background",
+                        "srcWidget": "flxTabs",
+                        "wType": "FlexScrollContainer"
+                    },
+                    "srcWgtKUID": "f09459cb0053415791f1d7c5354e62e6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "be439c2998aa4fd2ac0d235b8cdda031",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "sknTextActive",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Tab Text Active",
+                        "srcWidget": "lblSkin",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fad454eba6d745789bb9a17a42160e77"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g268381fca2f4c7b98478bbc6ad3c002",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "sknTextInactive",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Tab Text Inactive",
+                        "srcWidget": "lblDullSkin",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f6da0a02b932452fa2e62461bc3bafda"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e8998682e34644f0a9657592ccce5803",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "sknHighlight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Tab Hightlight",
+                        "srcWidget": "flxIndicator",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "aceca15ef0754425a411ecb877149846"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

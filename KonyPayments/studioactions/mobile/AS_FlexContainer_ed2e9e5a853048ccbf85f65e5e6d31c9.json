@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_ed2e9e5a853048ccbf85f65e5e6d31c9": {
+        "id": "AS_FlexContainer_ed2e9e5a853048ccbf85f65e5e6d31c9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f824dd7c4ef84efb88c0a23d03cbf09c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.formClearData();\n//#ifdef android\n mBottomSheetObject.show();\n  //#endif\n  //#ifdef iphone\n  this.animateBottomsheet();\n  //#endif",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

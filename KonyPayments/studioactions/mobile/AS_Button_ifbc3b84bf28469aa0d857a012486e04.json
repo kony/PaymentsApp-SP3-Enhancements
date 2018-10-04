@@ -1,0 +1,24 @@
+{
+    "AS_Button_ifbc3b84bf28469aa0d857a012486e04": {
+        "id": "AS_Button_ifbc3b84bf28469aa0d857a012486e04",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gff0e4284ce64558ac8a86aa8d618b71",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.btnpay.text==\"Pay Via\")\n{\n  //#ifdef android\n this.mBottomSheetObject.show();\n  //#endif\n  //#ifdef iphone\n  this.animateBottomsheet();\n  //#endif\n  \n}\nelse{\n  alert(\"This is only for demonstration purpose\");\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_iaee813e09ad41c78fe7ab727eb0550c": {
+        "id": "AS_Button_iaee813e09ad41c78fe7ab727eb0550c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a8da4899f8e344399b447fa2fbf555dc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.btnCreditcardclick();",
+            "callbackType": null
+        }]
+    }
+}

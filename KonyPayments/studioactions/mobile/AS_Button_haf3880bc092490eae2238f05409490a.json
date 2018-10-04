@@ -1,0 +1,24 @@
+{
+    "AS_Button_haf3880bc092490eae2238f05409490a": {
+        "id": "AS_Button_haf3880bc092490eae2238f05409490a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c6c9322fe76c4f8ab0645cc16842bc4e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nthis.getPayments();\n//#endif\n//#ifdef iphone\nthis.paymentApplepay();\n//#endif",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

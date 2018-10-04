@@ -1,0 +1,17 @@
+{
+    "AS_Button_dbc193feb0f545609b2b19499c2ef7a8": {
+        "id": "AS_Button_dbc193feb0f545609b2b19499c2ef7a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_abe5000ea7d24f2bb8388d6b3ece3c1c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.btnWireClick();",
+            "callbackType": null
+        }]
+    }
+}

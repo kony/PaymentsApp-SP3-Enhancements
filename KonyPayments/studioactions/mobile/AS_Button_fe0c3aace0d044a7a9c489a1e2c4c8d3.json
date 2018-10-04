@@ -1,0 +1,24 @@
+{
+    "AS_Button_fe0c3aace0d044a7a9c489a1e2c4c8d3": {
+        "id": "AS_Button_fe0c3aace0d044a7a9c489a1e2c4c8d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ae2d3994a88c457b9038233b9743a677",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.Button0f01906146e524e.skin==\"btnornagrbdr\"){\n  this.view.lblSuccess.isVisible=true;\n \tkony.timer.schedule(\"mytimer\", this.timerFunc, 5, false);\n \n  return;\n}else{\n  \n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

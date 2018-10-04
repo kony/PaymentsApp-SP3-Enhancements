@@ -1,0 +1,30 @@
+{
+    "AS_Segment_d9695979d6ce4b14b1e54d2a7481939d": {
+        "id": "AS_Segment_d9695979d6ce4b14b1e54d2a7481939d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__he3f2c06d9734fc796420bafaac533d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.contactSelected();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

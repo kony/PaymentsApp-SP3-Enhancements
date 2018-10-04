@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_h33e2953ae484458a14b2fb23ecc383e": {
+        "id": "AS_AppEvents_h33e2953ae484458a14b2fb23ecc383e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d2257b675216474493a6f83fad6beaf8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nkony.application.registerOnSettingsChangeCallback([\"wifi\"], deviceSettingCallback);\n//#endif",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

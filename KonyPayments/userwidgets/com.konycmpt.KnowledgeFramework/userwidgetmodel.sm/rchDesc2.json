@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        4,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc46394c09c642c2b90095da9198ced4",
+    "_text_": "<label style=\"font-weight:bold;color:#f2f1f1;\">/*Segment Row Animation*/</label><br><label style=color:#f2f1f1>/*<br>@function animateRows<br>@description function that animates the segment row height<br>@defined in the frmHomeController<br>*/</label><br><label style=color:#ffffff>animateRows: function animateRows() {<br>var section = 0;<br>var row = 0;<br>var contextDef = [{<br>sectionIndex: this.view.&lt SegmentID&gt.selectedIndex[0],<br>rowIndex: this.view.&lt SegmentID&gt.selectedIndex[1]<br>}];<br>var animDefinitionOne = {<br>0: {<br>\"height\": //Initial value<br>},<br>100: {<br>\"height\": //Final value,<br>}  };<br>var animDefinition = kony.ui.createAnimation(animDefinitionOne);<br>var animConfig = {<br>// Required configuration<br>};<br>var finalAnimation = {<br>definition: animDefinition,<br>config: animConfig,<br>callbacks: //if any<br>};<br> this.view.SegmentID.animateRows({<br> context: contextDef,<br>animation: finalAnimation<br>});<br>}</label>\n",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchDesc2",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a1580384067c4663b7165e318fc0aa59",
+    "name": "kony.ui.RichText",
+    "parent": "flexScrollDesc2",
+    "pf": "userwidgetmodel",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

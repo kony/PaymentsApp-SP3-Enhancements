@@ -1,0 +1,67 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "sknBackground",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "sknTextActive",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "sknTextInactive",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "sknHighlight",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "title0",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "title1",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "title2",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "title3",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "title4",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "title5",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "tabCount",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "tabWidth",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": ["moveLeft", "moveRight", "goToTab", "getSelectedTabDetails", "getSelectedTabIndex", "createTabs"],
+        "events": ["onTabChange"]
+    }
+});

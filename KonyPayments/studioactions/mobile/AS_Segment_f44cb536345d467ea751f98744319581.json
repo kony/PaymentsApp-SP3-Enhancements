@@ -1,0 +1,30 @@
+{
+    "AS_Segment_f44cb536345d467ea751f98744319581": {
+        "id": "AS_Segment_f44cb536345d467ea751f98744319581",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j6e09f624ab54069852ff7fff6dc8805",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.prevrow!=this.view.SegCards.selectedRowIndex[1]){\n  \n  this.animateRows();\n  this.prevrow=this.view.SegCards.selectedRowIndex[1]\n  this.collapsedState = false;\n  \n  \n}else{\n  if(this.collapsedState){\n    this.animateRows()\n  }else{\n  \tthis.changeData();\n  }\n  this.collapsedState = !this.collapsedState;\n  \n}\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

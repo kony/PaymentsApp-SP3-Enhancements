@@ -1,0 +1,229 @@
+{
+    "classname": "animatedtextfield",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "e7aa30466f56436f8409fe63fd5993b3",
+                    "paramList": [],
+                    "propertyKey": "getText",
+                    "pw": {
+                        "displayName": "getText",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h47d7e56f63e4e249a0d55588f986b38",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "onTextBoxDone",
+                    "pw": {
+                        "displayName": "onTextBoxDone",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "m637af45cce742f3a041685818e98f35",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f7b600f0a119445b95937126406868d5",
+                    "originalPropertyKey": "onTextChange",
+                    "propertyIndex": 2,
+                    "propertyKey": "textBoxTextChange",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "textBoxTextChange",
+                        "srcWidget": "txtBoxComponent",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "e73a79dd40794954974a1bf0e1dacc04"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Skin Properties"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "sknTextBoxComponent424242Op60",
+                    "group": "Skin Properties",
+                    "kuid": "c07b1f30ae3643cf87a8ec9ed5fef185",
+                    "originalPropertyKey": "placeholderSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "placeholderSkin",
+                    "pw": {
+                        "displayName": "Placeholder Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "m637af45cce742f3a041685818e98f35",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknPlaceholderAnimated",
+                    "group": "Skin Properties",
+                    "kuid": "ebabc87c26b942ba88abdbbb2734ad82",
+                    "originalPropertyKey": "placeholderFocusSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "placeholderFocusSkin",
+                    "pw": {
+                        "displayName": "Placeholder Focus Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "m637af45cce742f3a041685818e98f35",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknTextBoxComponent424242BGOp60",
+                    "group": "Skin Properties",
+                    "kuid": "fc10c1dd1e414ccda9b7209db557fda8",
+                    "originalPropertyKey": "underlineSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "underlineSkin",
+                    "pw": {
+                        "displayName": "Underline Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "m637af45cce742f3a041685818e98f35",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknUnderlineAnimated",
+                    "group": "Skin Properties",
+                    "kuid": "cc950882cefc4e438bd240e475f5e9c8",
+                    "originalPropertyKey": "underlineFocusSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "underlineFocusSkin",
+                    "pw": {
+                        "displayName": "Underline Focus Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "m637af45cce742f3a041685818e98f35",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknTextBoxComponent",
+                    "group": "Skin Properties",
+                    "kuid": "ja70f49d3e644adab1f75acf86e51d1b",
+                    "originalPropertyKey": "textboxSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "textboxSkin",
+                    "pw": {
+                        "displayName": "Textbox Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "m637af45cce742f3a041685818e98f35",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jb8dc605c1354fb2a5fe089f38aa1daf",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "placeholderText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Placeholder Text",
+                        "srcWidget": "lblPlaceholder",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "dfefcd9890734816a6c9967abf707ef0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f811325ae33848cab3dafd3fa5a3da26",
+                    "originalPropertyKey": "maxTextLength",
+                    "propertyIndex": 2,
+                    "propertyKey": "maxTextLength",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Maximum Characters",
+                        "srcWidget": "txtBoxComponent",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "e73a79dd40794954974a1bf0e1dacc04"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i9dcf083c02141a3b1b3c7b22f78de66",
+                    "originalPropertyKey": "secureTextEntry",
+                    "propertyIndex": 3,
+                    "propertyKey": "secureTextEntry",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Mask Text",
+                        "srcWidget": "txtBoxComponent",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "e73a79dd40794954974a1bf0e1dacc04"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f4fc6ae1ff524ed09e62e556af72d2b1",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "underlineVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Underline Visibility",
+                        "srcWidget": "lblUnderline",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f108349be7b74564b308af0ca9f58703"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

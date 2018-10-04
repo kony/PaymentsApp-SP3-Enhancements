@@ -1,0 +1,17 @@
+{
+    "AS_Button_gae54c874ad94f1b91e9ed9b94e3edda": {
+        "id": "AS_Button_gae54c874ad94f1b91e9ed9b94e3edda",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fe3e3c00826a4404a7b9059937c44869",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.Button0f01906146e524e.skin==\"btnornagrbdr\"){\n  //#ifdef android\n    this.checkWifiConnectivity();\n    //#endif\n  //#ifdef iphone\n  \tthis.view.lblSuccess.isVisible=true;\n \tkony.timer.schedule(\"mytimer\", this.timerFunc, 0.5, false);\n  //#endif\n \n  return;\n}else{\n  \n}",
+            "callbackType": null
+        }]
+    }
+}

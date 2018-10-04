@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sff28133c2794f81b7b96b1d45d6dd92",
+    "_text_": "CREDITCARD",
+    "_width_": {
+        "type": "string",
+        "value": "110dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "saa607c1d9434f3da44e089054948bcc",
+    "id": "btncreditcard",
+    "ide_onClick": "AS_Button_iaee813e09ad41c78fe7ab727eb0550c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c714b3d5bd2544eb97d41fcc529f0d99",
+    "name": "kony.ui.Button",
+    "parent": "CopyFlexContainer0b7c155798cd34c",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_c92420edecde42fab8418047e94bca95": {
+        "id": "AS_Button_c92420edecde42fab8418047e94bca95",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec669d55cf7e49708aac9d7e26c76f62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c7e32626d66d4184a2f866422def4fe7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var nvg=new kony.mvc.Navigation(\"Form1\");\nif(this.view.SegContacts.selectedRowItems ==null){\n  alert(\"Please select the payee\");\n  return;\n}\nnvg.navigate(this.view.SegContacts.selectedRowItems[0].lblName);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

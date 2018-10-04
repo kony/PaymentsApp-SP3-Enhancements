@@ -1,0 +1,24 @@
+{
+    "AS_UWI_a1b003853bf34a3d85038ff9767c638f": {
+        "id": "AS_UWI_a1b003853bf34a3d85038ff9767c638f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventObject",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jdcfca28e4764ac6bf0ad32db85c24e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.tabchange(eventObject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

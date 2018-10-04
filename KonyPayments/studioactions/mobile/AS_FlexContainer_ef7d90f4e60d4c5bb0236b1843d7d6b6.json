@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_ef7d90f4e60d4c5bb0236b1843d7d6b6": {
+        "id": "AS_FlexContainer_ef7d90f4e60d4c5bb0236b1843d7d6b6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dc1ffb3c41484c648e2166e8d21ae144",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef iphone\nthis.paymentApplepay();\n//#endif",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

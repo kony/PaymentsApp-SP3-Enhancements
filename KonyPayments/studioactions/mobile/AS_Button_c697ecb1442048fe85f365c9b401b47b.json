@@ -1,0 +1,17 @@
+{
+    "AS_Button_c697ecb1442048fe85f365c9b401b47b": {
+        "id": "AS_Button_c697ecb1442048fe85f365c9b401b47b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fed30bf14fb9445daef2d39e87c9ffe6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxCreditCard.isVisible=true;\nthis.view.btnSave.isVisible=true;\nthis.view.SegCards.isVisible=false;\nthis.view.btnView.isVisible=true;",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_gc83d28d2ff740d29606b08d84b0a9ab": {
+        "id": "AS_Form_gc83d28d2ff740d29606b08d84b0a9ab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec669d55cf7e49708aac9d7e26c76f62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bcc429c4a224492dbe24ede8e51ea4ad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.SegContacts.setData(this.data);\n this.collapsedState = true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

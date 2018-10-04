@@ -1,0 +1,22 @@
+{
+    "android": {
+        "font_name": "default"
+    },
+    "background_color": "42424299",
+    "bg_type": "one",
+    "border_color": "424242ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "42424200",
+    "font_name": "Helvetica",
+    "font_size": 215,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "iphone": {
+        "font_name": "OpenSans-Regular"
+    },
+    "isDefaultSkin": false,
+    "kuid": "s033fb827a664df5b5a1e65fe60587dd",
+    "wType": "Label"
+}

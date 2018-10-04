@@ -1,0 +1,181 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "CopyLabel0a9b5705f0c7d44": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CopyLabel0i1c07199181f44": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0f63afa6213274a": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "credite_card_icon_02.png"
+            },
+            "imgselect": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBlur": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lcardnum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Card Number"
+            },
+            "lexpire": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Expiry Date"
+            },
+            "lminus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "-"
+            },
+            "lminus2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "-"
+            },
+            "txtFldCardNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "txtFldDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "txtfldCardname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "250dp"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegCards",
+    "ide_onRowClick": "AS_Segment_d9695979d6ce4b14b1e54d2a7481939d",
+    "info": null,
+    "invokedProperty": "unselectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dc9e3b58f9cf4ed0a53c0af7b45b5e50",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexContainer0h6eacd971f0047",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j4ed10d52eb84912a2c69cb924fe7c65",
+    "rowcounter": 0,
+    "rowfocusskin": "sd9db2d284ae4345859199537d6c34af",
+    "rowskin": "se60fe06b7ee4822bc7236668c20eeec",
+    "rowtemplate": "flxCard",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sdb29bff632e455196eb5970fdbf2469",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "tick_mark_hover.png",
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "imgselect",
+        "selectedStateImage": "tick_mark_hover.png",
+        "unselectedStateImage": "tick_normal.png"
+    },
+    "selectionindicator": "imgselect",
+    "separatorcolor": "f5f5f500",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "unselectimage": "tick_normal.png",
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyFlexContainer0dd9ec95bca8147": "CopyFlexContainer0dd9ec95bca8147",
+        "CopyFlexContainer0f9e216b7321345": "CopyFlexContainer0f9e216b7321345",
+        "CopyLabel0a9b5705f0c7d44": "CopyLabel0a9b5705f0c7d44",
+        "CopyLabel0i1c07199181f44": "CopyLabel0i1c07199181f44",
+        "FlexContainer0c391ab83a4464a": "FlexContainer0c391ab83a4464a",
+        "FlexContainerblur": "FlexContainerblur",
+        "Image0f63afa6213274a": "Image0f63afa6213274a",
+        "flxCard": "flxCard",
+        "imgselect": "imgselect",
+        "lblBlur": "lblBlur",
+        "lcardnum": "lcardnum",
+        "lexpire": "lexpire",
+        "lminus": "lminus",
+        "lminus2": "lminus2",
+        "txtFldCardNumber": "txtFldCardNumber",
+        "txtFldDate": "txtFldDate",
+        "txtfldCardname": "txtfldCardname"
+    },
+    "zindex": 1
+}

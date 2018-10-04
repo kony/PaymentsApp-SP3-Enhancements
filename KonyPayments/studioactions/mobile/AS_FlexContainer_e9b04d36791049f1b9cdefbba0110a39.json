@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_e9b04d36791049f1b9cdefbba0110a39": {
+        "id": "AS_FlexContainer_e9b04d36791049f1b9cdefbba0110a39",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j2c40186a39f4b97ae5e24158239bda9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nthis.getPayments();\n//#endif",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

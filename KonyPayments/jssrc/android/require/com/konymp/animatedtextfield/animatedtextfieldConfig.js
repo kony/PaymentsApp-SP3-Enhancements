@@ -1,0 +1,52 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "placeholderText",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "maxTextLength",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "secureTextEntry",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "underlineVisibility",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "placeholderSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "placeholderFocusSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "underlineSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "underlineFocusSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "textboxSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": ["getText"],
+        "events": ["textBoxTextChange", "onTextBoxDone"]
+    }
+});

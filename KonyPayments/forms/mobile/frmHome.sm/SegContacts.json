@@ -1,0 +1,267 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnPayee": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pay"
+            },
+            "imgContact": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Place"
+            },
+            "lbNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Mobile Number"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Hyderabad"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- test@kony.com"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name of the Payee"
+            },
+            "lmobile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mobile"
+            }
+        },
+        {
+            "btnPayee": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pay"
+            },
+            "imgContact": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Place"
+            },
+            "lbNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Mobile Number"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Hyderabad"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- test@kony.com"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name of the Payee"
+            },
+            "lmobile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mobile"
+            }
+        },
+        {
+            "btnPayee": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pay"
+            },
+            "imgContact": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Place"
+            },
+            "lbNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Mobile Number"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Hyderabad"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- test@kony.com"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name of the Payee"
+            },
+            "lmobile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mobile"
+            }
+        },
+        {
+            "btnPayee": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pay"
+            },
+            "imgContact": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Place"
+            },
+            "lbNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Mobile Number"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- Hyderabad"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- test@kony.com"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name of the Payee"
+            },
+            "lmobile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mobile"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "320dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "215dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "disabledSkins": {
+        "widgetSkin": "s3624f42e67b4bfcbf216c1843d6e7e8"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegContacts",
+    "ide_onRowClick": "AS_Segment_dd6c1e7494554a52ac15f2243efb7d1a",
+    "info": null,
+    "invokedProperty": "unselectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b4f2ffd748194209849cdca460f352d9",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "g5fdf8f6fbd84f6da80df01d2e2f50c9",
+    "rowcounter": 3,
+    "rowfocusskin": "sd9db2d284ae4345859199537d6c34af",
+    "rowskin": "s45d52cdf1de4543ba781958be1bbcfe",
+    "rowtemplate": "flxContacts",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sdb29bff632e455196eb5970fdbf2469",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionindicator": "imgunselected",
+    "separatorcolor": "f5f5f500",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnPayee": "btnPayee",
+        "flxContPayee": "flxContPayee",
+        "flxContacts": "flxContacts",
+        "imgContact": "imgContact",
+        "lEmail": "lEmail",
+        "lPlace": "lPlace",
+        "lbNumber": "lbNumber",
+        "lblAddress": "lblAddress",
+        "lblEmail": "lblEmail",
+        "lblName": "lblName",
+        "lmobile": "lmobile"
+    },
+    "zindex": 1
+}

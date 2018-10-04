@@ -1,0 +1,30 @@
+{
+    "AS_Label_j775c0edb75f4709912785b640642f67": {
+        "id": "AS_Label_j775c0edb75f4709912785b640642f67",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__be499444e9434aa08a0f5ee85a0c4f8c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.flxBottomclick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

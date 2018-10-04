@@ -1,0 +1,24 @@
+{
+    "AS_Button_d82d494bcf3245b58180082c7fa8100c": {
+        "id": "AS_Button_d82d494bcf3245b58180082c7fa8100c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b66edc9ecab74c37959220e26855b2b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.btnwire.skin=\"btnskn3\";\nthis.view.btncreditcard.skin=\"btnTrans1\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

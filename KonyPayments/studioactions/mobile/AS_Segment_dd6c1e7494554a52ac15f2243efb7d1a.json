@@ -1,0 +1,30 @@
+{
+    "AS_Segment_dd6c1e7494554a52ac15f2243efb7d1a": {
+        "id": "AS_Segment_dd6c1e7494554a52ac15f2243efb7d1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec669d55cf7e49708aac9d7e26c76f62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__caca18308dde47ed81e01be4316cda6c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.contactSelected();\n// if(this.prevrow!=this.view.SegContacts.selectedRowIndex[1]){\n  \n//   this.animateRows();\n//   this.prevrow=this.view.SegContacts.selectedRowIndex[1];\n//   /*\n//    var rowIndex = this.view.SegContacts.selectedRowIndex[1];\n//    var data1 = this.view.SegContacts.selectedRowItems[0];\n//    data1.flxContacts = {\"skin\" : \"CopyslFbox0g357313e457149\"};\n//    data1.btnPayee = {\"skin\":\"btnskn\",\"text\":\"Pay\"};\n//    this.view.SegContacts.setDataAt(data1, rowIndex,0,this.finalAnimation1);\n//    this.view.SegContacts.selectedRowIndex = [0,rowIndex];*/\n//    this.collapsedState = false;\n// }else{\n//   if(this.collapsedState){\n      \n//   this.animateRows();\n//     this.prevrow=this.view.SegContacts.selectedRowIndex[1];\n//     /*\n//    var rowIndex = this.view.SegContacts.selectedRowIndex[1];\n//    var data1 = this.view.SegContacts.selectedRowItems[0];\n//    data1.flxContacts = {\"skin\" : \"flxorangeborder\"};\n//    data1.btnPayee = {\"skin\":\"btnskn\",\"text\":\"Pay\"};\n//    this.view.SegContacts.setDataAt(data1, rowIndex,0,this.finalAnimation1);*/\n//   }else{\n//     if(this.prevrow!==null && this.collapsedState===false){\n//   this.animateRows();\n//   // var rowIndex = this.view.SegContacts.selectedRowIndex[1];\n//   /* var data1 = this.view.SegContacts.data[this.prevrow];\n//    data1.flxContacts = {\"skin\" : \"flxorangeborder\"};\n//    data1.btnPayee = {\"skin\":\"btnskn\",\"text\":\"Pay\"};\n//    this.view.SegContacts.setDataAt(data1, this.prevrow,0,this.finalAnimation2);*/\n//     }\t\n//   }\n//   this.collapsedState = !this.collapsedState;\n  \n// }\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

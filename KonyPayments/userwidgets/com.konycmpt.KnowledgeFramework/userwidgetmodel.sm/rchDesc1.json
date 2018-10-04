@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        4,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5796da3721e4b06b2e38e7dd1575e8f",
+    "_text_": "In Segment rows, you can move (translate), rotate, or scale child widgets. For example, you can display a rotating logo or a hand icon that simulates waving by moving back and forth.<br>Also, your app can slide interface controls into a row from off screen. Or it can simulate the hands of an analog clock moving onscreen.<br>Apart from the above, you can also animated the row height using the row animation capabilities.<br><br>This app animates the row height for the list present in the bottom of the landing screen. This list contains a list of already added payees. Once you tap on one of the rows, the row expands to show additional details for that payee.",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchDesc1",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ac5d1ef11d1443459757026226046726",
+    "name": "kony.ui.RichText",
+    "parent": "flexScrollDesc1",
+    "pf": "userwidgetmodel",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

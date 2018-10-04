@@ -1,0 +1,17 @@
+{
+    "AS_Button_cdec6a6530fd46c580e394d48b1daa1a": {
+        "id": "AS_Button_cdec6a6530fd46c580e394d48b1daa1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b6e004943a7842ffba5416194dcbd3bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.keyChnSave();\nthis.keyChnRetrieve();\nthis.view.flxCreditCard.isVisible=false;\nthis.view.SegCards.isVisible=true;\nthis.view.btnSave.isVisible=false;\nthis.view.btnView.isVisible=false;",
+            "callbackType": null
+        }]
+    }
+}

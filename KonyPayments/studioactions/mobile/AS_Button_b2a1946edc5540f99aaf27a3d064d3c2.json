@@ -1,0 +1,24 @@
+{
+    "AS_Button_b2a1946edc5540f99aaf27a3d064d3c2": {
+        "id": "AS_Button_b2a1946edc5540f99aaf27a3d064d3c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c2d8e9fc02a64005b413f51ba8c6cbf3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.cardslength===0){\n  alert(\"No cards to display\");\n}else{\n this.view.SegCards.isVisible=true;\nthis.view.flxCreditCard.isVisible=false; \n}\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

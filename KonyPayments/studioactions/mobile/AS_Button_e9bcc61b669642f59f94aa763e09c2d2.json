@@ -1,0 +1,24 @@
+{
+    "AS_Button_e9bcc61b669642f59f94aa763e09c2d2": {
+        "id": "AS_Button_e9bcc61b669642f59f94aa763e09c2d2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdaf7cb7d45147e88c6dd944a064dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gca4fe8fc36242dcba8e6aa880c7130e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.FlxRating.isVisible=false;\nthis.view.FlexContainer0d34a8521156f46.onClick=this.flxBottomclick;\nthis.view.FlxBlur.blur= { \"enabled\": false,\"value\": 60};\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
